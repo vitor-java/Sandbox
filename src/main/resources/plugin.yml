@@ -1,0 +1,37 @@
+name: Sandbox
+version: '1.0-SNAPSHOT'
+main: net.olokw.sandbox.Sandbox
+api-version: '1.21'
+depend:
+  - GrandKits
+commands:
+  queue:
+    aliases: [fila, f, filarapida, fr, q]
+    usage: /<command>
+  rtp:
+    aliases: [tprandom, randomtp]
+    usage: /<command>
+  ignorar:
+    aliases: [ignore]
+    usage: /<command>
+  bot:
+    aliases: [botarena, botrtp]
+    usage: /<command>
+  spawn:
+    usage: /<command>
+  arena:
+    usage: /<command>
+  trim:
+    usage: /<command>
+  x1:
+    usage: /<command>
+  tpa:
+    usage: /<command>
+  tpaccept:
+    usage: /<command>
+  tpdeny:
+    usage: /<command>
+  back:
+    usage: /<command>
+  restartnow:
+    usage: /<command>

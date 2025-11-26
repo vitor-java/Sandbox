@@ -1,0 +1,10 @@
+mysql:
+  enabled: true # manter em true porque não há implementação no projeto sem mysql.
+  hostname: 127.0.0.1
+  port: 3306
+  username: username
+  password: database_password
+  database: database
+
+restart-daily:
+  - '03:00'
